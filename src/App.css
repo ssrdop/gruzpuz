@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.image-wrapper {
+  max-width: 700px;
+}
+
+.image-wrapper img{
+  display: block;
+  max-width: 100%;
+}
+
+.croppedImageWrapper {
+  max-width: 500px;
+}
+
+.croppedImageWrapper img{
+  max-width: 100%;
+}
+
+#original {
+  width: 100px;
+}
